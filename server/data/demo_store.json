@@ -1,0 +1,319 @@
+{
+  "users": [
+    {
+      "_id": "51390280-657b-40d6-9d57-481c447a16e0",
+      "full_name": "Demo Farm Administrator",
+      "email": "admin@fishcheck.demo",
+      "password_hash": "pbkdf2_sha256$310000$dCpqj2jY6RMPCBJ_EkT-PA$4GE1nAbigSs6LwPqdN4oOi6kVlrTtZ4dS_VFc0EKnzM",
+      "role": "ADMIN",
+      "created_at": "2026-10-03T22:44:40.658378+00:00"
+    }
+  ],
+  "pools": [
+    {
+      "_id": "a6f728cd-7767-47d4-acd6-1c5f6b3c6f8c",
+      "pool_id": "P1",
+      "pool_name": "North nursery",
+      "location": "Farm area A",
+      "description": "Sample data for the FishCheck demo farm.",
+      "capacity": 2000,
+      "water_volume": 1800.0,
+      "species": "Rohu",
+      "camera_ids": [
+        "CAM-001"
+      ],
+      "status": "ACTIVE",
+      "current_fish_count": 1245,
+      "average_length_cm": 32.5,
+      "average_weight_g": 520,
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "updated_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    },
+    {
+      "_id": "b3c5ca22-493e-4947-9be2-6630f2acbca4",
+      "pool_id": "P2",
+      "pool_name": "Tilapia grow-out",
+      "location": "Farm area B",
+      "description": "Sample data for the FishCheck demo farm.",
+      "capacity": 1800,
+      "water_volume": 1620.0,
+      "species": "Tilapia",
+      "camera_ids": [
+        "CAM-002"
+      ],
+      "status": "ACTIVE",
+      "current_fish_count": 983,
+      "average_length_cm": 28.4,
+      "average_weight_g": 410,
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "updated_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    },
+    {
+      "_id": "1a35922b-7bc4-4c2a-967b-98f7e766557f",
+      "pool_id": "P3",
+      "pool_name": "Carp production",
+      "location": "Farm area C",
+      "description": "Sample data for the FishCheck demo farm.",
+      "capacity": 2400,
+      "water_volume": 2160.0,
+      "species": "Common Carp",
+      "camera_ids": [
+        "CAM-003"
+      ],
+      "status": "ACTIVE",
+      "current_fish_count": 1456,
+      "average_length_cm": 35.1,
+      "average_weight_g": 610,
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "updated_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    },
+    {
+      "_id": "4051931d-4824-4644-bad3-9592b1806a65",
+      "pool_id": "P4",
+      "pool_name": "Quarantine pond",
+      "location": "Farm area D",
+      "description": "Sample data for the FishCheck demo farm.",
+      "capacity": 900,
+      "water_volume": 810.0,
+      "species": "Mrigal",
+      "camera_ids": [
+        "CAM-004"
+      ],
+      "status": "ACTIVE",
+      "current_fish_count": 870,
+      "average_length_cm": 21.2,
+      "average_weight_g": 360,
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "updated_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    }
+  ],
+  "cameras": [
+    {
+      "_id": "5340f623-c25d-49b6-8c0f-6c01ab274332",
+      "camera_id": "CAM-001",
+      "camera_name": "P1 overhead",
+      "pool_id": "P1",
+      "camera_type": "Simulation",
+      "camera_url": "",
+      "status": "ONLINE",
+      "resolution": "1920x1080",
+      "fps": 25,
+      "location": "Farm area A",
+      "last_seen": "2026-10-03T22:44:40.658378+00:00",
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    },
+    {
+      "_id": "f0f7ba3d-76bc-4fb5-a660-18bd02fea3b3",
+      "camera_id": "CAM-002",
+      "camera_name": "P2 overhead",
+      "pool_id": "P2",
+      "camera_type": "Simulation",
+      "camera_url": "",
+      "status": "ONLINE",
+      "resolution": "1920x1080",
+      "fps": 25,
+      "location": "Farm area B",
+      "last_seen": "2026-10-03T22:44:40.658378+00:00",
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    },
+    {
+      "_id": "49cba57f-272f-417c-af59-6e49588dab4b",
+      "camera_id": "CAM-003",
+      "camera_name": "P3 overhead",
+      "pool_id": "P3",
+      "camera_type": "Simulation",
+      "camera_url": "",
+      "status": "ONLINE",
+      "resolution": "1920x1080",
+      "fps": 25,
+      "location": "Farm area C",
+      "last_seen": "2026-10-03T22:44:40.658378+00:00",
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    },
+    {
+      "_id": "0cde5c51-9017-4df9-a783-94e1266fe22b",
+      "camera_id": "CAM-004",
+      "camera_name": "P4 overhead",
+      "pool_id": "P4",
+      "camera_type": "Simulation",
+      "camera_url": "",
+      "status": "OFFLINE",
+      "resolution": "1920x1080",
+      "fps": 25,
+      "location": "Farm area D",
+      "last_seen": "2026-10-03T22:44:40.658378+00:00",
+      "created_at": "2026-10-03T22:44:40.658378+00:00",
+      "is_demo": true
+    }
+  ],
+  "health_alerts": [
+    {
+      "_id": "212b4dae-0c5c-44af-9c7f-57d70f92ae81",
+      "alert_id": "15dc672a-33b6-4ad9-ab2c-e9fcda8bb7af",
+      "type": "DISEASE",
+      "pool_id": "P4",
+      "camera_id": "CAM-004",
+      "message": "Review recent quarantine-pool screening.",
+      "severity": "MEDIUM",
+      "is_read": false,
+      "is_demo": true,
+      "created_at": "2026-10-03T22:44:40.658378+00:00"
+    },
+    {
+      "_id": "82dcb910-ddb7-4f89-914e-2ac8437e89c9",
+      "alert_id": "46603640-d100-4a4d-852d-e2c9d9a4830c",
+      "type": "CAMERA",
+      "pool_id": "P4",
+      "camera_id": "CAM-004",
+      "message": "Camera CAM-004 is offline.",
+      "severity": "LOW",
+      "is_read": false,
+      "is_demo": true,
+      "created_at": "2026-10-03T22:44:40.658378+00:00"
+    },
+    {
+      "_id": "d4bacbbd-d645-4614-a0f1-59214f103a94",
+      "alert_id": "51b02459-298a-4701-b119-ca1691c6a4a9",
+      "type": "INFO",
+      "pool_id": "P1",
+      "camera_id": "CAM-001",
+      "message": "Demo farm is ready for image analysis.",
+      "severity": "LOW",
+      "is_read": false,
+      "is_demo": true,
+      "created_at": "2026-10-03T22:44:40.658378+00:00"
+    }
+  ],
+  "analysis_results": [
+    {
+      "_id": "06d0129d-4336-476a-9501-88ed493296fb",
+      "pool_id": "P1",
+      "camera_id": "CAM-001",
+      "created_at": "2026-10-02T22:44:40.658378+00:00",
+      "provider_mode": "DEMO_MODEL",
+      "fish_count": 1180,
+      "species_distribution": [
+        {
+          "name": "Rohu",
+          "count": 1180
+        }
+      ],
+      "disease_distribution": [
+        {
+          "name": "Healthy",
+          "count": 1
+        }
+      ],
+      "summary": {
+        "average_length_cm": 32.5,
+        "average_weight_g": 520,
+        "estimated_biomass_kg": 613.6,
+        "healthy_count": 1180,
+        "disease_count": 0
+      },
+      "is_sample": true
+    },
+    {
+      "_id": "2b4263aa-b1c7-4c38-a348-76c69270141c",
+      "pool_id": "P2",
+      "camera_id": "CAM-002",
+      "created_at": "2026-10-01T22:44:40.658378+00:00",
+      "provider_mode": "DEMO_MODEL",
+      "fish_count": 950,
+      "species_distribution": [
+        {
+          "name": "Tilapia",
+          "count": 950
+        }
+      ],
+      "disease_distribution": [
+        {
+          "name": "Healthy",
+          "count": 1
+        }
+      ],
+      "summary": {
+        "average_length_cm": 28.4,
+        "average_weight_g": 410,
+        "estimated_biomass_kg": 389.5,
+        "healthy_count": 950,
+        "disease_count": 0
+      },
+      "is_sample": true
+    },
+    {
+      "_id": "93829143-aea8-4fe8-a191-efaed49feb88",
+      "pool_id": "P3",
+      "camera_id": "CAM-003",
+      "created_at": "2026-09-30T22:44:40.658378+00:00",
+      "provider_mode": "DEMO_MODEL",
+      "fish_count": 1408,
+      "species_distribution": [
+        {
+          "name": "Common Carp",
+          "count": 1408
+        }
+      ],
+      "disease_distribution": [
+        {
+          "name": "Fin Rot",
+          "count": 1
+        }
+      ],
+      "summary": {
+        "average_length_cm": 35.1,
+        "average_weight_g": 610,
+        "estimated_biomass_kg": 858.9,
+        "healthy_count": 1407,
+        "disease_count": 1
+      },
+      "is_sample": true
+    },
+    {
+      "_id": "48a49e0a-dfb1-4d70-a605-2c50e6cc034a",
+      "pool_id": "P4",
+      "camera_id": "CAM-004",
+      "created_at": "2026-09-29T22:44:40.658378+00:00",
+      "provider_mode": "DEMO_MODEL",
+      "fish_count": 842,
+      "species_distribution": [
+        {
+          "name": "Mrigal",
+          "count": 842
+        }
+      ],
+      "disease_distribution": [
+        {
+          "name": "Healthy",
+          "count": 1
+        }
+      ],
+      "summary": {
+        "average_length_cm": 21.2,
+        "average_weight_g": 360,
+        "estimated_biomass_kg": 303.1,
+        "healthy_count": 842,
+        "disease_count": 0
+      },
+      "is_sample": true
+    }
+  ],
+  "audit_logs": [
+    {
+      "_id": "9f9e8a2e-a0f3-4518-8d69-82ca1c10a24b",
+      "user_id": "51390280-657b-40d6-9d57-481c447a16e0",
+      "email": "admin@fishcheck.demo",
+      "role": "ADMIN",
+      "action": "DEMO_LOGIN",
+      "target": "",
+      "created_at": "2026-10-03T22:45:35.074706+00:00"
+    }
+  ]
+}

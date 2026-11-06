@@ -1,0 +1,1 @@
+"""Persistence document shapes are validated through the Pydantic schemas."""

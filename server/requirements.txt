@@ -1,0 +1,16 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+motor>=3.6,<4
+python-multipart>=0.0.9
+pillow>=10,<13
+reportlab>=4,<6
+pymongo>=4.9,<5
+python-dotenv>=1,<2
+python-jose[cryptography]>=3.3,<4
+pwdlib[argon2]>=0.2,<1
+torch>=2.14,<3
+torchvision>=0.29,<1
+
+# Optional fish-detection runtime (requires a compatible trained detector file):
+# ultralytics>=8
+# opencv-python-headless>=4.10
